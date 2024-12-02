@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Using the Select Command in Cypress</title>
+</head>
+<style>
+    h1 {
+        font-size: 2em;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    header {
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: 100px;
+        background-color: mediumturquoise;
+    }
+</style>
+<body>
+    <main>
+        <header>
+            <h1>Select Command Examples</h1>
+        </header>
+
+        <section class="iphones" id="iphones">
+            <h1>Types of iPhone</h1>
+            <section id="iphone-versions">
+                <label for="select-version">Choose an iPhone:</label>
+                        <select name="iPhones" id="select-version" disabled>
+                            <option value="">--Please choose an option--</option>
+                            <option value="iPhone-8">iPhone 8</option>
+                            <option value="iPhone-XR">iPhone XR</option>
+                            <option value="iPhone-11" >iPhone 11</option>
+                            <option value="iPhone-12">iPhone 12</option>
+                            <option value="iPhone-13">iPhone 13</option>
+                            <option value="iPhone-14">iPhone 14</option>
+                        </select>
+            </section>
+        </section>
+
+        <section class="mac-book" id="mac-book">
+            <h1>Mac Book models released</h1>
+            <section id="mac-book-models">
+                <label for="select-version">Choose a Mac Book:</label>
+                        <select name="mac-book" id="select-version" style="display: none;">
+                            <option value="">--Please choose an option--</option>
+                            <option value="iMac-Pro">iMac Pro (27-inch)</option>
+                            <option value="MacBook-Air">MacBook Air (Retina, 13-inch)</option>
+                            <option value="Mac-Pro" >Mac Pro</option>
+                            <option value="Mac-mini">MacBook Pro</option>
+                            <option value="Mac-Studio">Mac Studio</option>
+                            <option value="MacBook-Air">MacBook Air</option>
+                        </select>
+            </section>
+        </section>
+    </main>
+</body>
+</html>
