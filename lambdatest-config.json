@@ -1,12 +1,12 @@
 {
    "lambdatest_auth": {
-      "username": " <Your LambdaTest username>",
-      "access_key": "<Your LambdaTest access key>"
+      "username": "ocxigin",
+      "access_key": "ozt9qqIYEndpzpcphAiu6NE1tuj5ntAIIUytYNfHzwE33JWxBD"
    },
    "browsers": [
       {
          "browser": "Chrome",
-         "platform": "Windows 10",
+         "platform": "Windows 11",
          "versions": [
             "latest-1"
          ]
@@ -18,10 +18,9 @@
             "latest"
          ]
       },
-
       {
          "browser": "Firefox",
-         "platform": "Windows 10",
+         "platform": "Windows 11",
          "versions": [
             "latest-1"
          ]
@@ -30,7 +29,7 @@
    "run_settings": {
       "cypress_config_file": "",
       "reporter_config_file": "base_reporter_config.json",
-      "build_name": "select_command_in_cypress_dropdown",
+      "build_name": "Select-Commands-in-Cypress-for-Dropdown",
       "parallels": 1,
       "specs": "./cypress/e2e/*.cy.js",
       "ignore_files": "",
