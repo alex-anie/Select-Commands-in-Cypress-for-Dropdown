@@ -1,7 +1,7 @@
 {
    "lambdatest_auth": {
-      "username": "ocxigin",
-      "access_key": "ozt9qqIYEndpzpcphAiu6NE1tuj5ntAIIUytYNfHzwE33JWxBD"
+      "username": "",
+      "access_key": ""
    },
    "browsers": [
       {
@@ -40,7 +40,7 @@
       }
    },
    "tunnel_settings": {
-      "tunnel": false,
-      "tunnel_name": null
+      "tunnel": true,
+      "tunnel_name": "LT_Tunnel"
    }
 }
